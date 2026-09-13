@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom/client";
-import Home from "./Components/Home";
-import Restaurant from "./Components/Restaurant";
+import Home from "./Home";
+import Restaurant from "./Restaurant";
 import { BrowserRouter, Routes, Route } from "react-router";
-import RestaurantMenu from "./Components/RestaurantMenu";
-import SearchFood from "./Components/SearchFood";
-import SecondaryHome from "./Components/SecondaryHome";
-import { store } from "./Stored/stores";
+import RestaurantMenu from "./RestaurantMenu";
+import SearchFood from "./SearchFood";
+import SecondaryHome from "./SecondaryHome";
+import { store } from "./stores";
 import {Provider} from "react-redux"
-import Checkout from "./Components/Checkout";
+import Checkout from "./Checkout";
 
 
 
@@ -40,6 +40,4 @@ ReactDOM.createRoot(document.getElementById('root')).render(<App></App>);
 
 
 
-// Proxy server "https://cors-anywhere.herokuapp.com/"; 
-
-
+// Proxy server "https://cors-anywhere.herokuapp.com/";
