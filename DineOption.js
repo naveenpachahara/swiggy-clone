@@ -1,4 +1,4 @@
-import {dineoutRestaurants} from "../Utils/DineData"
+import {dineoutRestaurants} from "./DineData"
 import DineCard from "./DineCard"
 
 
