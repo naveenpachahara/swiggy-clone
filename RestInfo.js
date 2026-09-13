@@ -1,5 +1,5 @@
 import { useState } from "react"
-import {addItems, IncrementItems, DecrementItems} from "../Stored/CartSlicer"
+import {addItems, IncrementItems, DecrementItems} from "./CartSlicer"
 import { useDispatch, useSelector } from "react-redux";
 
 export default function RestInfo({restData}){
